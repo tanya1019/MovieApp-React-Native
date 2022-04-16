@@ -14,7 +14,7 @@ const AppNavigation = () => {
     <NavigationContainer>
       <Stack.Navigator
         screenOptions={{ headerShown: false }}
-        initialRouteName={"Search"}
+        initialRouteName={"LandingPage"}
       >
         <Stack.Screen component={Detail} name="Detail" />
         <Stack.Screen component={LandingPage} name="LandingPage" />
